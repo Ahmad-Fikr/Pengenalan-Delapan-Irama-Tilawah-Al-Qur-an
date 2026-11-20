@@ -1,0 +1,43 @@
+# ==============================================================================
+# .gitignore - Skripsi Klasifikasi 8 Maqam Tilawatil Qur'an
+# ==============================================================================
+
+# 1. Kredensial Pribadi & Token
+kaggle.json
+*.key
+*.token
+
+# 2. File Metadata Kaggle CLI (Internal)
+kernel-metadata.json
+
+# 3. Model Deep Learning Besar (Batas GitHub 100MB)
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# 4. Dataset Audio Skala Besar (Dataset ada di Kaggle)
+quran_data/
+*.tar.gz
+*.zip
+
+# 5. File Log Eksekusi
+*.log
+
+# 6. Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# 7. Memori Konfigurasi AI Internal
+GEMINI.md
+.gemini/
+
+# 8. Folder Lain yang Tidak Di-upload
+app_demo/
+Draf Percobaan Awal/

@@ -1,0 +1,5 @@
+Model,Test Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1-Score (%),Weighted F1-Score (%)
+Exp 1: 2D CNN (MFCC),51.69,54.98,47.17,47.79,50.16
+Exp 2: 2D CNN (SDCC),21.82,8.66,14.38,8.56,11.61
+Exp 3: CRNN Hybrid (BiGRU),46.75,45.16,43.82,44.17,46.41
+Exp 4: Dual-Stream CRNN + Attention,47.53,48.08,44.05,44.52,46.44
